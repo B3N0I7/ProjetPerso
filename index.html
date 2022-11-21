@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Metas -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="images/Icone_barre.png" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+    <link href="icofont.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Document Title -->
+    <title>Capharnaüm - Projet bizarre</title>
+    <script type="text/javaScript">
+        function open_win()
+        {
+          window.open("formulaire/formulaire.html","_blank","toolbar=no, location=yes, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600, height=400")
+        }
+    </script>
+</head>
+<body>
+  <!-- HEADER SECTION -->  
+  <header id="home">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><img src="images/Logo_BF.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="interactive-menu-button">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#home">Accueil<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#about-us">A propos</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#contact-us">Contact</a>
+            </li>
+ <!--            <li class="nav-item dropdown">
+              <!-- Lang Dropdown Link --
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- Lang Dropdown Choice --
+                <a class="dropdown-item" href="#">DE </a>
+                <!-- Lang Dropdown Choice --
+                <a class="dropdown-item" href="#">ES </a>
+              </div>
+            </li>	
+          </ul>
+          <form data-scroll href="#contact-us" class="contact-btn form-inline my-2 my-lg-0">
+            <!-- Contact Us Button --
+            <button>Contact</button>
+          </form>	-->
+        </div>
+      </nav>
+    </div>
+    <!-- BRAIN SECTION -->    
+    <div class="container-fluid hero">
+      <img src="images/brain.svg" alt="">
+      <div class="container">
+        <!-- Hero Title -->
+        <h1>Capharnaüm<br>Projet bizarre</h1>
+        <!-- Hero Title Info -->
+        <p>Je ne sais pas trop quoi faire.<br>Je vais partir dans plusieurs directions.<br>Il s'agit de pratiquer, de fouiller, d'inventer !</p>
+        <div class="hero-btns">
+          <!-- Hero Btn First 
+          <a data-scroll href="#about-us">Sur moi</a>
+          <!-- Hero Btn Second  
+          <a data-scroll href="#contact-us">Contact</a> -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- SERVICES SECTION -->  
+  <section id="about-us" class="services">
+    <div class="container-fluid">
+      <div class="side-img"> 
+        <img src="images/aside.svg" alt="">
+      </div>
+      <div class="side2-img"> 
+        <img src="images/aside2.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-lg-4 service-txt">
+            <h2>Ce que je veux ?</h2>
+            <div class="hero-btns service-btn">
+              <a data-scroll href="#contact-us">Contactez-moi</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="service-box">
+              <img src="images/icone_web.png" alt="">
+              <!-- Service Title -->
+              <h3>Graphic<br>Conception</h3>
+              <!-- Replace Patch to Image Under -->
+              <p>Pour devenir Full Stack, je dois apprendre le front end...</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="service-box">
+              <img src="images/icone_dev.png" alt="">
+              <!-- Service Title -->
+              <h3>App<br>Développement</h3>
+              <!-- Service Info -->
+              <p>Pour devenir Full Stack, je dois apprendre le back end aussi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="images/aboutimg.svg" alt="">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6">
+          <h5>Et moi Et moi Et moi</h5>
+          <h2>Ce que je peux<br>vous dire de moi</h2>
+          <!-- Replace About Us Text Under -->
+          <p>Membre de la 5ème promotion de la Software Academy, je compte bien...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <div class="container-fluid">
+      <div class="portfolio-aside">
+        <img src="images/aside3.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Regardez un peu<br>mes chats maintenant</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/chat01.jpg" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Yeux bleus</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/chat02.jpg" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Grosses billes</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/chat03.jpg" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Pas commode</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/chat04.jpg" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">J'ai rien vu</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/chat05.jpg" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">S'il te plaît</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/chat06.jpg" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Pas de photo</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Hidden Images From Portfolio -->
+        <div id="hiden-gallery" class="hide">
+          <div class="row">
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <!-- Replace Patch to Image Under -->
+                    <img src="images/chat10.jpg" class="photobox__preview" alt="Preview">
+                    <!-- Replace Image Title Under -->
+                    <span class="photobox__label">?????</span>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <!-- Replace Patch to Image Under -->
+                    <img src="images/chat08.jpg" class="photobox__preview" alt="Preview">
+                    <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Fan d'un chanteur ?</span>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <!-- Replace Patch to Image Under -->
+                    <img src="images/chat09.jpg" class="photobox__preview" alt="Preview">
+                    <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Ahhhhhhh</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 more-btn">
+            <!-- Show Me More/Less Button -->
+            <a class="more-btn-inside">Show More.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BLOG SECTION -->
+  <section id="blog" class="blog">
+    <div class="container-fluid">
+      <div class="blog-aside">
+        <img src="images/aside4.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5>BLOG</h5>
+            <h2>Mon aventure</h2>
+          </div>
+        </div>
+        <div id="blog-drag" class="row blog-slider">
+            
+            <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Jour 7</h6>
+            <!-- Blog Post Date -->
+            <p>21 novembre 2022</p>
+            <!-- Blog Post -->
+            <p>Le jugement dernier</p>
+          </div>
+
+            <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Jour 6</h6>
+            <!-- Blog Post Date -->
+            <p>14 novembre 2022</p>
+            <!-- Blog Post -->
+            <p>Je viens de me rendre compte que j'attends depuis une semaine la prochaine étape...</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Jour 5</h6>
+            <!-- Blog Post Date -->
+            <p>10 novembre 2022</p>
+            <!-- Blog Post -->
+            <p>Ma candidature est validée. J'attends les prochaines instructions.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Jour 4</h6>
+            <!-- Blog Post Date -->
+            <p>7 novembre 2022</p>
+            <!-- Blog Post -->
+            <p>Validation des modules 2 & 3.</p>
+          </div>
+          <!-- Blog Section to be showed on Drag  -->
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Jour 3</h6>
+            <!-- Blog Post Date -->
+            <p>4 novembre 2022</p>
+            <!-- Blog Post -->
+            <p>Validation du premier module !</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Jour 2</h6>
+            <!-- Blog Post Date -->
+            <p>3 novembre 2022</p>
+            <!-- Blog Post -->
+            <p>Inscription sur le site, je vais pouvoir m'y mettre.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Jour 1</h6>
+            <!-- Blog Post Date -->
+            <p>27 octobre 2022</p>
+            <!-- Blog Post -->
+            <p>Tentatives d'inscription sur le site et demande de duplicata.</p>
+          </div>
+        </div>
+        <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
+        <button class="hide-me" id="blog-btn">Plus encore !</button>
+      </div>
+    </div>
+  </section>  
+  <!-- CONTACT SECTION -->
+  <section id="contact-us" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>Contactez-moi</h5>
+          <h2>Ca se passe par ici</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Votre email" type="email" id="email" pattern=".+@globex.com" size="30" required>
+        </div>
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Objet" type="subject" id="subject" size="30" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 message">
+          <textarea id="message" name="message" rows="5" cols="1">Ecrivez-moi ici...</textarea>
+        </div>
+        <div class="col-12">
+          <div class="hero-btns contact-btn">
+            <!-- Send Message Btn -->
+            <a onclick="open_win()">Envoyer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER SECTION -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>BF</h5>
+          <h3>CAPHARNAÜM</h3>
+          <ul class="contact-nav">
+            <li><a data-scroll href="#home">Accueil</a></li>
+            <li><a data-scroll href="#about-us">A propos</a></li>
+            <li><a data-scroll href="#portfolio">Portfolio</a></li>
+            <li><a data-scroll href="#blog">Blog</a></li>
+            <li><a data-scroll href="#contact-us">Contact</a></li>
+          </ul>
+          <h6>2022 - Capharnaüm</h6>
+          <ul class="social">
+            <li><a href="https://fr-fr.facebook.com/" target="_blanck"><i class="icofont-facebook"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blanck"><i class="icofont-twitter"></i></a></li>
+            <!--  <li><a href="#"><i class="icofont-dribbble"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Scripts Ends -->
+</body>
+</html>
